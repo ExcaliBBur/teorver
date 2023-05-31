@@ -94,7 +94,7 @@ def getHistogramm(data, h):
     
     __, ax = plt.subplots()
     ax.bar(x, y)
-    plt.title('Гистограмма относительных частот')
+    plt.title('Гистограмма приведенных частот')
     plt.show()
 
 def getPolygon(data, h):
